@@ -3,7 +3,7 @@ const Product = require('./Product');
 const Category = require('./Category');
 const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
-const { canTreatArrayAsAnd } = require('sequelize/types/lib/utils');
+// const { canTreatArrayAsAnd } = require('sequelize/types/lib/utils');
 
 // Products belongsTo Category
 Product.belongsTo(Category, {
